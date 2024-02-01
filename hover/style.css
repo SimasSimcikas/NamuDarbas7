@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #191919;
+  color: white;
+  text-align: center;
+}
+
+.page {
+  display: inline-block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #191919;
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.home:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.about:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.contact:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.faq:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/*-------------------*/
+
+.home:hover::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background-color: #191919;
+  top: 40px;
+  margin-right: 10px;
+  transition: 0.5s;
+  right: 0;
+}
+
+.home:hover::after {
+  content: "";
+  position: absolute;
+  left: 400px;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  opacity: 0;
+}
+
+/*.about:hover::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background-color: #191919;
+  top: 40px;
+  margin-right: 10px;
+  transition: 0.5s;
+  right: 0;
+}
+
+.about:hover::after {
+  content: "";
+  position: absolute;
+  left: 400px;
+  width: 5px;
+  height: 200%;
+  background-color: red;
+  transition: 0.3s;
+  z-index: -1;
+  opacity: 0;
+}
+
+.contact:hover::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background-color: #191919;
+  top: 40px;
+  margin-right: 10px;
+  transition: 0.5s;
+  right: 0;
+}
+
+.contact:hover::after {
+  content: "";
+  position: absolute;
+  left: 400px;
+  width: 5px;
+  height: 200%;
+  background-color: red;
+  transition: 0.3s;
+  z-index: -1;
+  opacity: 0;
+}
+
+.faq:hover::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background-color: #191919;
+  top: 40px;
+  margin-right: 10px;
+  transition: 0.5s;
+  right: 0;
+}
+
+.faq:hover::after {
+  content: "";
+  position: absolute;
+  left: 400px;
+  width: 5px;
+  height: 200%;
+  background-color: red;
+  transition: 0.3s;
+  z-index: -1;
+  opacity: 0;
+}*/

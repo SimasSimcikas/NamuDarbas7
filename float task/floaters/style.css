@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #ededed;
+}
+
+body {
+  font-family: "News Cycle", sans-serif;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.menu {
+  width: 900px;
+  height: 100px;
+  background-color: white;
+  border-top: 5px solid #0974b3;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.name {
+  color: #0974b3;
+  padding-top: 20px;
+  font-size: 30px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.age {
+  margin-left: 20px;
+  margin-top: 0px;
+  background-color: white;
+}
+
+.isaac {
+  color: #666;
+  width: 900px;
+  height: 250px;
+  background-color: white;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.quote {
+  background-color: white;
+}
+
+.isaacp {
+  margin-top: 10px;
+  background-color: white;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.more {
+  background-color: white;
+}
+
+.isaacphoto {
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*----------------------------------*/
+
+.column {
+  color: #666;
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  text-align: left;
+}
+
+.footer {
+  width: 500px;
+  height: 100px;
+  margin-top: 20px;
+  background-color: white;
+  border-top: 5px solid #0974b3;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.name2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
+  color: #0974b3;
+  font-size: 30px;
+  background-color: white;
+}
+
+.age2 {
+  margin-left: 20px;
+  background-color: white;
+}
+
+.albertphoto {
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.quote2 {
+  background-color: white;
+  padding-right: 20px;
+}
+
+.albertp {
+  background-color: white;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.more2 {
+  background-color: white;
+}
+
+/*----------------------------------*/
+
+.name3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
+  color: #0974b3;
+  font-size: 30px;
+  background-color: white;
+}
+
+.age3 {
+  margin-left: 20px;
+  background-color: white;
+}
+
+.teslaphoto {
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.quote3 {
+  background-color: white;
+  padding-right: 20px;
+}
+
+.teslap {
+  background-color: white;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.more3 {
+  background-color: white;
+}
